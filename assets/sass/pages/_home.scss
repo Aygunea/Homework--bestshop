@@ -1,0 +1,86 @@
+.swiper1,
+.swiper2 {
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  img {
+    width: 100%;
+  }
+}
+.swiperContent h1 {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #121212;
+  font-size: 3rem;
+}
+.swiper1 {
+  background-image: url("/assets/images/slide4.jpg");
+}
+.swiper2 {
+  background-image: url("/assets/images/slide3.jpg");
+}
+// Start Banner Section
+#banner {
+  .bannerBox {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+  }
+  .banner1 {
+    height: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("/assets/images/h3ad1.jpg");
+  }
+  .banner2 {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/assets/images/h3ad2.jpg');
+  }
+  .banner3 {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("/assets/images/h3ad3.jpg");
+  }
+}
+.bannerInfo {
+  color: $text-light;
+  padding: 2rem 5px;
+  z-index: 99999;
+  text-transform: uppercase;
+
+  .banner-heading {
+    font-size: 4.2rem;
+    font-weight: 300 !important;
+  }
+  .banner-title {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  .banner-title-4 {
+    width: max-content;
+    border: 3px solid $text-light;
+    padding: 4px 10px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: $text-light;
+  }
+}
+@media (max-width: 992px) {
+  .banner2 {
+    margin-top: 1.5rem;
+  }
+}

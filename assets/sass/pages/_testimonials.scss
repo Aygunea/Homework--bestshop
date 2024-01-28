@@ -1,0 +1,33 @@
+// Start Section TestiMInoals
+#testimonials {
+  height: max-content;
+  background-size: cover;
+  background-image: url("/assets/images/tbgestimonial.jpg");
+  .testimonialCard {
+    background-color: $text-light;
+    max-width: 600px;
+    padding: 2.5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    img {
+      border-radius: 50%;
+      position: absolute;
+      left: 45%;
+      width: 70px;
+      top: -40px;
+      z-index: 555555;
+    }
+    span {
+      font-weight: bold;
+      color: #aaaaaa;
+    }
+    p {
+      color: #aaaaaa;
+    }
+  }
+}
+section {
+  overflow: hidden;
+}

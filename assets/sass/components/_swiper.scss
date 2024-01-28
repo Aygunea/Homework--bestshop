@@ -1,0 +1,14 @@
+.owl-carousel {
+  position: relative;
+}
+.owl-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  i {
+    font-size: 2rem;
+    color: #aaaaaa;
+  }
+}

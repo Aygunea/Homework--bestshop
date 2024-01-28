@@ -1,0 +1,28 @@
+footer {
+  .container-Y {
+    padding: 4rem 0;
+  }
+  img {
+    width: 180px;
+  }
+  .email-input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    input {
+      border: none;
+      border-bottom: 1px solid #555555;
+      outline: none;
+      background-color: transparent;
+      padding-bottom: 10px;
+    }
+  }
+  .social-items {
+    font-size: 11px;
+    color: #555555;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}

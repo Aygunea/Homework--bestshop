@@ -1,0 +1,39 @@
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 11111;
+}
+nav {
+  background-color: $text-light;
+}
+.navbar-brand img {
+  width: 150px;
+}
+.burger {
+  display: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: transparent;
+  li a {
+    color: $t-dark;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    &:hover {
+      color: $text-danger;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    display: none !important;
+  }
+  .burger {
+    display: block;
+  }
+}
